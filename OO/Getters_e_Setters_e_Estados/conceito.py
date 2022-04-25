@@ -13,7 +13,7 @@
 class Conceito():
   def __init__(self, valor):
     self.x = valor
-    
+  
   '''Método getter para retornar o valor do atributo x '''
   def get_valor(self):
     return self.x
