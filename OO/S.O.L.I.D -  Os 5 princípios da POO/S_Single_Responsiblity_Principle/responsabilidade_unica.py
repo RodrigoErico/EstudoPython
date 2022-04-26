@@ -19,7 +19,7 @@ class RegistrationSystem:
             self.__save_users(name, age)
         else:
             print('dados inválidos!')
-                     
+
 
     def __validate_data(self, name: str, age: int) -> bool:
         if isinstance(name, str) and isinstance(age, int):
